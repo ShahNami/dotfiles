@@ -7,20 +7,26 @@ function installcask() {
 }
 
 installcask dropbox
-installcask google-chrome
-installcask google-chrome-canary
 installcask imagealpha
 installcask imageoptim
-installcask iterm2
 installcask macvim
-installcask miro-video-converter
-installcask opera
-installcask opera-developer
-installcask opera-next
-installcask sublime-text
 installcask the-unarchiver
 installcask tor-browser
 installcask transmission
-installcask ukelele
-installcask virtualbox
-installcask vlc
+installcask textmate
+installcask cyberduck
+installcask sequel-pro
+installcask xtrafinder
+installcask bartender
+installcask gpgtools
+installcask tunnelblick
+installcask truecrypt
+installcask teamspeak-client
+installcask limechat
+installcask skype
+installcask mpv
+installcask hive
+installcask teamviewer
+installcask gfxcardstatus
+installcask usb-overdrive
+installcask totalterminal
