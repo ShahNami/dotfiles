@@ -18,7 +18,7 @@ windowTitle    = "$TM_DISPLAYNAME - ${CWD/^.*\///}"
 include        = ".htaccess"
 
 #Show all files
-include		   = "{$include,.*}"
+include		   = "{$include,*,.*}"
 # ---------------------------------------------------------
 # Exclude old *.tmproj files
 # ---------------------------------------------------------

@@ -1,4 +1,5 @@
 # nop's dots
+#### Does not yet contain zsh configuration
 
 ## Credits
 ### This is the result off shameless copypasta manufacturing.
