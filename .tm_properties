@@ -1,1 +1,89 @@
-include="{$include,.*}"
+# .tm_properties Based on http://gist.github.com/1478685
+# ---------------------------------------------------------
+
+# ---------------------------------------------------------
+# font and size
+# ---------------------------------------------------------
+fontName      = "Menlo"
+fontSize      = 12
+
+# ---------------------------------------------------------
+# Display the name of the home directory
+# ---------------------------------------------------------
+windowTitle    = "$TM_DISPLAYNAME - ${CWD/^.*\///}"
+
+# ---------------------------------------------------------
+# Omit .tm_properties so it doesn't show in the browser
+# ---------------------------------------------------------
+include        = ".htaccess"
+
+#Show all files
+include		   = "{$include,.*}"
+# ---------------------------------------------------------
+# Exclude old *.tmproj files
+# ---------------------------------------------------------
+exclude        = "{$exclude,*.tmproj}"
+
+# ---------------------------------------------------------
+# Variables
+# ---------------------------------------------------------
+TM_FULLNAME   = "Joris Vanhecke"
+TM_ORGANIZATION = "jorisvanhecke.be"
+
+# ---------------------------------------------------------
+# Configure Git and Mercurial (hg)
+# ---------------------------------------------------------
+TM_GIT        = "/usr/local/bin/git"
+
+# ---------------------------------------------------------
+# General Settings
+# ---------------------------------------------------------
+showInvisibles = false
+spellChecking  = true
+
+[ .git/COMMIT_EDITMSG ]
+spellChecking    = true
+spellingLanguage = 'en'
+
+[ *.{icns,ico,jpg,jpeg,m4v,nib,pdf,png,psd,pyc,rtf,tif,tiff,xib} ]
+binary           = true
+
+[ text ]
+softWrap       = false
+wrapColumn     = 100
+softTabs       = true
+tabSize        = 2                                                             
+
+[ text.html.markdown ]
+softWrap       = true
+wrapColumn     = "Use Window Frame"
+softTabs       = false
+tabSize        = 4
+
+[ text.plain ]
+softWrap       = true
+wrapColumn     = "Use Window Frame"
+softTabs       = false
+tabSize        = 4
+
+[ source ]
+softWrap       = false
+wrapColumn     = 80
+softTabs       = true
+tabSize        = 2
+
+[ source.plist ]
+softTabs       = false
+tabSize        = 4
+
+[ source.tm-properties ]
+spellChecking  = false
+
+[ "{README,INSTALL,LICENSE,TODO}" ]
+fileType       = "text.plain"
+
+
+# not entirely sure this bit works...
+[ ".{zshrc}"]
+fileType       = "shell"
+spellChecking  = false
