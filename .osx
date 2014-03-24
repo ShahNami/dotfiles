@@ -669,9 +669,6 @@ defaults write com.twitter.twitter-mac ShowFullNames -bool true
 # Hide the app in the background if it’s not the front-most window
 defaults write com.twitter.twitter-mac HideInBackground -bool true
 
-###############################################################################
-# TextMate2.app                                                                 #
-###############################################################################
 
 # Install Solorized themes
 open "${HOME}/init/Solarized-dark.tmTheme"
@@ -680,6 +677,15 @@ open "${HOME}/init/Solarized-light.tmTheme"
 
 # Install Extra Bundles
 open "${HOME}/init/DashMate.tmbundle"
+open "${HOME}/init/fish.tmbundle"
+open "${HOME}/init/Liquid.tmbundle"
+
+###############################################################################
+# fish shell                                                                  #
+###############################################################################
+#s Set as default shell
+grep -q '^/usr/local/bin/fish$' /etc/shells; or echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
+chsh -s /usr/local/bin/fish
 
 ###############################################################################
 # Kill affected applications                                                  #
