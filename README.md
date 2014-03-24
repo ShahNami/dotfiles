@@ -1,12 +1,45 @@
 # nop's dots
-#### Does not yet contain zsh configuration
+## About
 
-## Credits
-### This is the result off shameless copypasta manufacturing.
+My dotfiles are probably no use to you, as it is the result of copypasta manufacturing.
+Check out my sources, the people that put some real work into it.
 
-Forked off 
-[mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles)!
+####Optimized for
+- Ruby
+	+ Ruby-Install 
+	+ Rubies-Select
+- TextMate2
+	+ Solarized themes
+	+ Fish bundle
+	+ Dash bundle
+	+ Liquid bundle (Ruby templating engine)
+	+ Solarized themes
+- TotalTerminal (no, not iTerm2)
+	+ Solarized themes
+- Fish
+	+ Custom theme (based on ione)
+	+ Config for use with solarized dark
+	+ AutoJump enabled
+	+ Rake completions
 
+
+## Sources
+♥
+
+Base (.osx, Brewfile, .cask, aliases, osx tool settings)
+[mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles)
+Fish configuration files
+[ithinkihaveacat/dotfiles](https://github.com/ithinkihaveacat/dotfiles)
+More fish config
+[bpinto/oh-my-fish](https://github.com/bpinto/oh-my-fish)
+Rubies-Select (also base for my Rubies-Current)
+[kvs/rubies-fish](https://github.com/kvs/rubies-fish)
+Fish bundle
+[l15n/fish-tmbundle](https://github.com/l15n/fish-tmbundle)
+Dash bundle
+[ram-nadella/Dashmate.tmbundle](https://github.com/ram-nadella/DashMate.tmbundle)
+Liquid bundle
+[liquid-tmbundle](https://github.com/andrew/liquid-tmbundle)
 ## Installation
 
 

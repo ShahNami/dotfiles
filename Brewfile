@@ -14,6 +14,9 @@ install findutils
 # Install Bash 4
 install bash 
 
+#Install fish
+install fish
+
 # Install wget with IRI support
 install wget --enable-iri
 
@@ -23,7 +26,6 @@ install apple-gcc42
 # Install more recent versions of some OS X tools
 install vim --override-system-vi
 install homebrew/dupes/grep
-install josegonzalez/homebrew-php/php55
 
 # Install other useful binaries
 install ack
