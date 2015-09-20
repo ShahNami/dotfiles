@@ -25,7 +25,7 @@ Check out my sources, the people that put some real work into it.
 
 ## Sources
 ♥
-
+Forked from [Venhecke/dotfiles](https://github.com/Vanhecke/dotfiles)
 Base (.osx, Brewfile, .cask, aliases, osx tool settings)
 [mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles)
 Fish configuration files
@@ -70,10 +70,10 @@ Add your own settings through the .extra file.
 For example
 
 ```bash
-GIT_AUTHOR_NAME="Joris Vanhecke"
+GIT_AUTHOR_NAME="Nami Shah"
 GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
 git config --global user.name "$GIT_AUTHOR_NAME"
-GIT_AUTHOR_EMAIL="joris@jorisvanhecke.be"
+GIT_AUTHOR_EMAIL="nami@shahnami.com"
 GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 git config --global user.email "$GIT_AUTHOR_EMAIL"
 #FTP&SSH connection aliases
